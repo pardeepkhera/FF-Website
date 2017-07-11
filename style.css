@@ -1,0 +1,220 @@
+.banner{
+    background: url(images/7.jpg) no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed!important;
+    min-height: 100vh;
+}
+.banner_btn{
+    top: 0;
+    left:0;
+    bottom: 0;
+    display: table-cell;
+    height: 200px;
+}
+.scroll-btn{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -150px;
+    margin-bottom: 30px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+}
+.content{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+ 
+    padding-bottom: 35px;
+}
+.col_2{
+        padding: 10px 80px;
+}
+.p_l_80{
+        padding: 10px 80px;
+}
+.company_title{
+    font-family: "Minion Pro";
+    font-size: 65px;
+    line-height: 65px;
+    text-align:center;
+    margin: 90px 0 75px;
+  }
+ h4, .h4{
+    font-family: "Minion Pro";
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+ }
+  h3{
+    font-family: "Minion Pro";
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+
+ }
+p{
+        margin-bottom: 20px;
+}
+.theme_btn{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border-left: 2px solid #213144;
+    color: #213144;
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: 11px;
+    background: none;
+    border-radius: 0;
+    outline: none;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.theme_btn:hover{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    border-left: 2px solid #213144;
+    color: #ffffff;
+    background: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: 11px;
+    border-radius: 0;
+    outline: none;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+.services{
+    background: #fef3e3;
+    padding: 40px 0 70px;
+    margin-top: 50px;
+}
+.pad40{
+    padding: 40px;
+}
+.img_block{
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: table;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:black;
+  color: white;
+  }
+
+.img_block:hover .overlay {
+  opacity:0.6;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.service_img{
+    min-height: 200px;
+    width: 100%;
+}
+.thumb_info{
+    margin:40px auto;
+    padding: 50px;
+}
+.theme_txt{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #213144;
+    text-decoration: none;
+    line-height: 11px;
+    
+}
+.contact{
+    background: #fef3e3;
+    margin-top: 50px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #ffffff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.foot{
+    text-align: center;
+    color: white;
+    background: #213144;
+}
