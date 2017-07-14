@@ -3,20 +3,13 @@
 <head>
 <title>FeverFew Lab</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="banner">
-        <span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
-        <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
         <div class="scroll-btn"></div>
     </section>
     <section class="content">
@@ -58,7 +51,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 p_l_80">
-                    <a class="btn theme_btn">Learn More</a>
+                    <a class="btn theme_btn" href="about.html">Learn More</a>
                 </div>
             </div>
         </div>
@@ -67,7 +60,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <p>EXPERTISE</p>
+                    <p class="theme_txt" style="margin-left:40px;margin-left: 6px;font-size: 14px;">EXPERTISE</p>
                 </div>
             </div>
             <div class="row">
@@ -168,7 +161,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h4>Contact Us</h4>
+                    <a href="contact.html" class="a_none"><h4>Contact Us</h4></a>
                 </div>
             </div>
         </div>
@@ -176,11 +169,12 @@
     <section class="foot">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-4 pad40">
-                    <img src="images/logo.png" class="img-responsive">
+                <div class="col-xs-12 col-md-4 pad40" align="center">
+                    <a href="main.html"><img src="images/logo.png" class="img-responsive"></a>
                 </div>
                 <div class="col-xs-12 col-md-4 pad40">
-                    social links
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="pad_l_50"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-xs-12 col-md-4 pad40">
                     design by
@@ -191,14 +185,7 @@
     
 
 
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
 </script>
     </body>
 </html>

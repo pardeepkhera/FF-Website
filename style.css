@@ -30,6 +30,7 @@
     -ms-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
 }
+
 .content{
     float: none;
     display: block;
@@ -37,6 +38,14 @@
     margin-right: auto;
     margin: 0 auto;
  
+    padding-bottom: 35px;
+}
+.abt_content{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
     padding-bottom: 35px;
 }
 .col_2{
@@ -52,6 +61,7 @@
     text-align:center;
     margin: 90px 0 75px;
   }
+
  h4, .h4{
     font-family: "Minion Pro";
     font-size: 30px;
@@ -67,6 +77,16 @@
  }
 p{
         margin-bottom: 20px;
+}
+.theme_txt{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #213144;
+    padding: 10px 20px;
+    margin-left: 6px;
+    font-size: 14px;
 }
 .theme_btn{
     font-weight: 700;
@@ -173,48 +193,22 @@ p{
     padding: 50px 0px;
     text-align: center;
 }
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFFFFF;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #ffffff;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 .foot{
     text-align: center;
     color: white;
     background: #213144;
+}
+.pad_l_50{
+    padding-left: 50px;
+}
+.a_none{
+   text-decoration: none;
+    color: #333;
+}
+.a_none:hover{
+   text-decoration: none;
+    color: #333;
+}
+.map_img{
+    margin: 100px 80px;
 }
