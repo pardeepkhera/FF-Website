@@ -212,3 +212,17 @@ p{
 .map_img{
     margin: 100px 80px;
 }
+.writeus{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    display: table;
+    padding-bottom: 35px;
+}
+.services{
+    background: #f7f7f7;
+    padding: 40px 0 70px;
+    margin-top: 50px;
+}
