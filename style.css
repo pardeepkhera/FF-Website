@@ -1,5 +1,5 @@
 .banner{
-    background: url(images/7.jpg) no-repeat;
+    background: url(images/main_bg.jpg) no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -37,7 +37,7 @@
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;
- 
+    background: white
     padding-bottom: 35px;
 }
 .abt_content{
@@ -123,7 +123,7 @@ p{
     -webkit-transition: all 0.5s ease 0s;
 }
 .services{
-    background: #fef3e3;
+    background: #f9f9f9;
     padding: 40px 0 70px;
     margin-top: 50px;
 }
@@ -188,7 +188,7 @@ p{
     
 }
 .contact{
-    background: #fef3e3;
+    background: #f9f9f9;
     margin-top: 50px;
     padding: 50px 0px;
     text-align: center;
@@ -212,7 +212,7 @@ p{
 .map_img{
     margin: 100px 80px;
 }
-.writeus{
+.writeus2{
     float: none;
     display: block;
     margin-left: auto;
@@ -222,7 +222,55 @@ p{
     padding-bottom: 35px;
 }
 .services{
-    background: #f7f7f7;
+    background: #f9f9f9;
     padding: 40px 0 70px;
     margin-top: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+.navi{
+    position: fixed;
+    z-index: 1;
+    background: white;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+#logo:hover{
+    -webkit-animation: spinreverse .5s linear;
+}
+
+@-webkit-keyframes spinreverse {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(-180deg);}  
+}
+.writeus{
+    width: 100%;
+    background: #f9f9f9;
 }
